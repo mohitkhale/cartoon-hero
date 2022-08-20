@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	font-family: Comic Sans MS;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+header{
+	background-color: #17202A;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+main figure{
+	text-align: center;
+}
+
+header h1{
+	color: gray;
+	font-size: 70px;
+}
+
+h2{
+	font-size: 50px;
+	color: #17202A;
+	padding: 20px 0px 20px;
+}
+
+/*Rubik burned is a google fonts imported font*/
+h1, h2{
+	font-family: 'Rubik Burned', cursive;
+}
+
+header img{
+	border-style: groove;
+	border-color: E0DBDA;
+	border-width: 5px;
+}
+
+main{
+	background-color: #F6D845;
+	border-style:groove;
+	max-width: 2000px;
+	margin: 50px auto;
+	text-align: left;
+	padding: 0 50px;
+}
+
+a{
+	color: #041C7C;
+}
+
+/*hover is the sub class that allows to give style when cursor is on the anchor item*/
+
+a:hover{
+	background-color:#041C7C;
+	color: #FCD823;
+}
+figure{
+	font-style: italic;
+}
+
+footer{
+	text-align: center;
+	font-family: arial;
+	background-color: #17202A;
+	color: whitesmoke;
+	padding: 10px;
+}
